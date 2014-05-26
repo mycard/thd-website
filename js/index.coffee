@@ -1,6 +1,8 @@
 $(".navbar").click ->
   $('body').animate scrollTop: 0
 
+$('#lite_client').tooltip()
+###
 $.getJSON 'https://my-card.in/links.json', (data)->
   for link in data
     $('<li/>').append($('<a />',
@@ -24,3 +26,5 @@ $.getJSON 'https://my-card.in/duelists.json', (data)->
   $('#duelist_lastest_issue').removeClass('hidden')
   $('#duelists').html (for duelist in data
     $('<li/>').append($('<a/>', href: duelist.url, text: duelist.title )))
+
+###

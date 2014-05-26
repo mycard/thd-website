@@ -12,11 +12,11 @@ h1 {
 }
 
 h2 {
-    color: #593500;
+    color: #5c1a05;
 }
 
 .navbar, footer {
-    background-color: #ff9900;
+    background-color: #eb5d5b;
     border-color: #cc6600;
 }
 .navbar a, footer{
@@ -39,15 +39,15 @@ h2 {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #ffaa22;
+    background-color: #cb3d3b;
 }
 
 #donate {
-    background: #ffe6c0;
+    background: #fad8d7;
 }
 
 #contact_and_links {
-    background: #ffc670;
+    background: #f3a4a3;
 }
 
 #contact img {
@@ -95,7 +95,7 @@ h2 {
     text-align:right;
     font-weight: normal;
     font-size:15px;
-    color:#663300;
+    color:#581c00;
 }
 
 #donate p {
