@@ -16,7 +16,7 @@ h2 {
 }
 
 .navbar, footer {
-    background-color: #ff9900;
+    background-color: #eb5d5b;
     border-color: #cc6600;
 }
 .navbar a, footer{
@@ -43,11 +43,11 @@ h2 {
 }
 
 #donate {
-    background: #ffe6c0;
+    background: #fad8d7;
 }
 
 #contact_and_links {
-    background: #ffc670;
+    background: #f3a4a3;
 }
 
 #contact img {
