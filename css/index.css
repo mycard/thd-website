@@ -46,7 +46,7 @@ h2 {
     background: #fad8d7;
 }
 
-#contact_and_links {
+#description {
     background: #f3a4a3;
 }
 
@@ -70,6 +70,7 @@ h2 {
 #download {
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #download_desktop > .btn {
@@ -98,7 +99,7 @@ h2 {
     color:#581c00;
 }
 
-#donate p {
+#donate p, #description p {
     font-size: 15px;
     line-height: 30px;
     margin-top:10px;
@@ -132,11 +133,11 @@ h2 {
 
 /* 桌面端加大间距 */
 @media (min-width: 992px) {
-    #contact_and_links, #donate {
+    #description, #donate {
         padding-top: 18px;
         padding-bottom: 20px;
     }
-    #contact_and_links .row {
+    #description .row {
         margin-top: 30px;
     }
     #donate .row {
@@ -160,12 +161,12 @@ h2 {
     }
 }
 
-#contact, #donate_text, #donate_button, #links_wrapper {
+#contact, #donate p, #description p, #donate_button, #links_wrapper {
     padding-right: 15px;
     padding-left: 15px;
 }
 
-#donate_text {
+#donate p, #description p {
     padding-left: 20px;
 }
 
@@ -174,12 +175,6 @@ h2 {
 }
 #links > li {
     padding: 5px 15px 0 0;
-}
-
-@media (min-width: 1200px) {
-    h1 {
-        margin-top: 90px;
-    }
 }
 
 @media (max-width: 991px) {
@@ -195,7 +190,7 @@ h2 {
     #links_wrapper {
         margin-left: 380px;
     }
-    #donate_text {
+    #donate p {
         padding-right: 200px;
         float: left
     }
