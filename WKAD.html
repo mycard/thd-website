@@ -437,9 +437,14 @@ th {
         font-size: 12px;
         background: #EAF4FF;
         border-bottom: 1px solid #9FCFFF;
-        cursor: pointer;
         height: 48px;
         font-family: Tahoma;
+    }
+    #wrapper {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
     }
     #title {
         position: absolute;
@@ -447,8 +452,8 @@ th {
         left: 16px;
         font-weight: bold;
     }
-    #title:link { text-decoration: none;color: black}
-    #title:visited { color: black}
+    #wrapper:link { text-decoration: none;color: black}
+    #wrapper:visited { color: black}
 
     #description {
         color: #404040;
@@ -456,9 +461,12 @@ th {
         left: 36px;
         top: 28px;
     }
+
 </style>
 </head>
 <body oncontextmenu="return false;" onselectstart="return false">
+<a id="wrapper" href="https://donate.my-card.in/thd" target="_blank">
 <div id="title" href="https://donate.my-card.in/thd">WarKey++ 魔兽改键伴侣</div>
 <div id="description">功能: 改键、显血、聊天不改键、输入框有右键菜单。</div>
+</a>
 </body></html>
